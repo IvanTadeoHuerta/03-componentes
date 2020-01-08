@@ -1,0 +1,32 @@
+<app-header titulo="Grid"></app-header>
+
+<ion-content>
+
+  <ion-grid>
+    <!-- <ion-row>
+      <ion-col >
+        Hola
+      </ion-col>
+     
+    </ion-row> -->
+
+    <ion-row>
+      <ion-col size="12" size-lg="3" size-md="4" size-sm="6" size-xs="12" *ngFor="let item of [1,1,1,1,1,1,1,1,1,1,1,1]">
+        <ion-card>
+          <ion-img src="assets/shapes.svg"></ion-img>
+
+          <ion-card-header>
+            <ion-card-subtitle>Card subtitle</ion-card-subtitle>
+            <ion-card-title>Car title</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex porro unde molestiae commodi atque. Iure placeat animi fugiat! Eaque, mollitia laudantium? Error, maiores id? Asperiores, cumque impedit. Officia, voluptatem recusandae?
+          </ion-card-content>
+
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+</ion-content>
